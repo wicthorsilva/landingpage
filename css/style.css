@@ -70,12 +70,16 @@ main {
     font-size: 30px;
 }
 #paragrafo-copy h1 {
-    font-size: 60px;
+    font-size: 70px;
 }
 
 #btn-saibamais {
+    background-color: rgb(247, 184, 13);
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 2rem;
-    width: 300px;
+    padding-top: .5rem;
+    width: 400px;
+    height: 50px;
     font-size: 20px;
 }
 
@@ -122,6 +126,29 @@ footer p{
 /*____________________________________________*/
 
 @media (max-width:1120px) {
+
+    #paragrafo-copy {
+        width: 500px;
+    }
+
+     #paragrafo-copy h1 {
+        font-size: 50px;
+    }
+
+    #paragrafo-copy p {
+        margin-top: 2rem;
+        font-size: 20px;
+    } 
+
+    #img-poster{
+        height: 474px;
+        width: 450px;
+    }
+}
+
+
+
+@media (max-width:980px) {
     main {
         display: block;
     }
@@ -130,20 +157,39 @@ footer p{
         margin: auto;
     }
 
-    /* #paragrafo-copy h1 {
-        font-size: 50px;
+    #div-img {
+        margin-top: 4rem;
     }
-
-    #paragrafo-copy p {
-        margin-top: 2rem;
-        font-size: 25px;
-    } */
 
     .botao {
         text-align: center;
+    } 
+}
+
+@media (max-width:450px) {
+    #paragrafo-copy {
+        width: 300px;
     }
 
-    #div-img {
-        margin-top: 4rem;
+    #btn-saibamais {
+        
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    #img-poster{
+        height: 354px;
+        width: 330px;
+        margin-bottom: 2rem;
+    }
+
+    .cards .card {
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+    }
+
+    .cards {
+        margin-top: 0rem;
     }
 }
